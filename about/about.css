@@ -1,0 +1,72 @@
+/* Fun, unique, and responsive styling for the About page */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    transition: background-color 0.5s ease;
+}
+
+/* Change background color based on screen width */
+@media (max-width: 600px) {
+    body {
+        background-color: #ffcccb; /* Light Coral */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #add8e6; /* Light Blue */
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        background-color: #90ee90; /* Light Green */
+    }
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #ff7f50, #ff6347);
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #ff6347;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 1000;
+}
+
+footer p {
+    margin: 0;
+}
